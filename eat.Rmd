@@ -51,3 +51,9 @@ colPerc(table1)
 ```
 
 The numerical results show that white people ate out 83.13% while black people ate out 69.19% and other was at 72.12%. The data shows that overall white people ate out more frequent than black and other people. 
+
+```{r}
+fisherXY(mydata$race, mydata$eatout, printAll = TRUE)
+```
+
+
